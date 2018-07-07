@@ -1,8 +1,8 @@
-# waitui-casperjs 一款python爬虫框架
+# waitui-casperjs (一款python爬虫框架)
 
 CasperJs 是一个基于 PhantomJs 的工具，其比起 PhantomJs 可以更加方便的进行 navigation。
 
-# 1、安装
+## 1、安装
 
 CasperJS 依赖于 PhantomJS >= 1.3，强烈建议使用 PhantomJS1.5 版本，PhantomJS 的安装非常简单，下载后解压就可以使用，或者直接使用 npm 安装。
 
@@ -28,7 +28,7 @@ $ python --version
 $ casperjs --version
 ```
 
-# 2、一个简单的 CasperJS 代码
+## 2、一个简单的 CasperJS 代码
 
 创建一个文件 baidu.js，用来模拟我们访问百度页面
 
@@ -53,7 +53,7 @@ $ casperjs baidu.js
 "百度一下，你就知道"
 ```
 
-# 3、casper 的串联执行和生成网页图片
+## 3、casper 的串联执行和生成网页图片
 
 CasperJS 的执行脚本是由一个一个的 Step 串联起来的，start 表示第一步，然后后面的 step 用 then 来表示，再依次执行：
 
@@ -72,7 +72,7 @@ casper.run();
 
 完成以后，我们会在 Console 上得到一个 title，同时我们也会得到在 then 中捕捉到的图片 baidu-homepage.png。
 
-# 4、form提交，进行搜索
+## 4、form提交，进行搜索
 
 我们想办法让 CasperJS 完成搜索功能
 
@@ -97,7 +97,7 @@ casper.then(function() {
 casper.run();
 ```
 
-# 5、如何引入 jQuery，并且进行数据输出保存
+## 5、如何引入 jQuery，并且进行数据输出保存
 
 有时候，需要引入一些第三方插件来方便操作，例如：jQuery
 
@@ -164,7 +164,7 @@ casper.then(function() {
 
 这样就可以侦听被访问页面的console.log事件，比导出到CasperJs中
 
-# 完整案例
+## 完整案例
 
 ( 本人公司内网才能访问，各位同学可以随意模拟一个网站)
 
@@ -268,6 +268,9 @@ casper.run(function(){
 以上内容來自：[https://www.jianshu.com/p/46b9d255cecb](https://www.jianshu.com/p/46b9d255cecb)
 
 >作者：Simon王小白
+
 >链接：https://www.jianshu.com/p/46b9d255cecb
+
 >來源：简书
+
 >简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
