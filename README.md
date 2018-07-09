@@ -1,5 +1,13 @@
 # waitui-casperjs (一款简单的web爬虫框架)
 
+## 运行demo(首先cd到run.js所在的路径)
+
+```
+e:
+cd xampp\htdocs\git_waitui\waitui-casperjs
+casperjs run.js http://36kr.com/
+```
+
 CasperJs 是一个基于 PhantomJs 的工具，其比起 PhantomJs 可以更加方便的进行 navigation。
 
 ## 1、安装
