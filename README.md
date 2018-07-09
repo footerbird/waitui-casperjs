@@ -1,6 +1,6 @@
 # waitui-casperjs (一款简单的web爬虫框架)
 
-## 运行demo(首先cd到run.js所在的路径)
+运行demo(首先cd到run.js所在的路径)
 
 ```
 e:
